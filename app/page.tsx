@@ -1,7 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen px-8 py-20 max-w-5xl mx-auto">
-      {/* Hero */}
+    <main className="min-h-screen px-8 py-24 max-w-6xl mx-auto">
       <h1 className="text-5xl font-bold tracking-tight">
         Ronit Khanna
       </h1>
@@ -10,23 +9,22 @@ export default function Home() {
         Full-Stack & AI Engineer • Java • .NET • FastAPI • Azure AI
       </p>
 
-      <p className="mt-6 text-gray-600 max-w-2xl leading-relaxed">
-        I design and build scalable backend systems, AI-powered applications,
-        and production-grade full-stack platforms used in real-world environments.
+      <p className="mt-6 text-gray-700 max-w-2xl leading-relaxed">
+        I design and build scalable backend systems and AI-powered applications,
+        with a strong focus on performance, reliability, and real-world production use.
       </p>
 
-      {/* CTAs */}
-      <div className="mt-8 flex gap-4">
+      <div className="mt-10 flex gap-4">
         <a
           href="/projects"
-          className="px-6 py-3 bg-black text-white rounded-md"
+          className="px-6 py-3 bg-black text-white rounded-md text-sm hover:bg-gray-800 transition"
         >
           View Projects
         </a>
 
         <a
           href="/contact"
-          className="px-6 py-3 border border-gray-300 rounded-md"
+          className="px-6 py-3 border rounded-md text-sm hover:bg-gray-50 transition"
         >
           Contact Me
         </a>
@@ -35,20 +33,20 @@ export default function Home() {
           href="/Ronit_Khanna_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-3 border border-gray-300 rounded-md"
+          className="px-6 py-3 border rounded-md text-sm hover:bg-gray-50 transition"
         >
           Download Resume
         </a>
       </div>
 
-      {/* Tech Stack (short + subtle) */}
-      <div className="mt-14">
-        <h2 className="text-2xl font-semibold">Tech Stack</h2>
-
-        <p className="mt-4 text-sm text-gray-500">
-          Java • Spring Boot • .NET • FastAPI • PostgreSQL • MongoDB • Azure • React • OpenAI API • Swift
+      {/* Tech Stack */}
+      <section className="mt-20">
+        <h2 className="text-2xl font-semibold mb-4">Tech Stack</h2>
+        <p className="text-gray-700 max-w-4xl leading-relaxed">
+          Java • Spring Boot • .NET • FastAPI • PostgreSQL • MongoDB • Azure •
+          React • OpenAI API • Swift
         </p>
-      </div>
+      </section>
     </main>
   );
 }
