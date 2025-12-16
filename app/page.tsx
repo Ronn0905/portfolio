@@ -12,7 +12,8 @@ export default function Home() {
         and production-ready full-stack products.
       </p>
 
-      <div className="mt-8 flex gap-4">
+      {/* CTA Buttons */}
+      <div className="mt-8 flex flex-wrap gap-4">
         <a
           href="/projects"
           className="px-6 py-3 bg-black text-white rounded-md"
@@ -26,16 +27,25 @@ export default function Home() {
         >
           Contact Me
         </a>
+
+        <a
+          href="/Ronit_Khanna_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-black text-white rounded-md"
+        >
+          Download Resume
+        </a>
       </div>
 
+      {/* Tech Stack */}
       <div className="mt-14">
-  <h2 className="text-2xl font-semibold">Tech Stack</h2>
+        <h2 className="text-2xl font-semibold">Tech Stack</h2>
 
-  <p className="mt-4 text-gray-700">
-    Java • Spring Boot • .NET • FastAPI • Azure AI • React • Node.js • MongoDB
-  </p>
-</div>
-
+        <p className="mt-4 text-gray-700">
+          Java • Spring Boot • .NET • FastAPI • Azure AI • React • Node.js • MongoDB
+        </p>
+      </div>
     </main>
   );
 }
