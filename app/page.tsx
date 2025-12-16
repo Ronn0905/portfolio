@@ -43,7 +43,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold">Tech Stack</h2>
 
         <p className="mt-4 text-gray-700">
-          Java • Spring Boot • .NET • FastAPI • Azure AI • React • Node.js • MongoDB
+          Java • Spring Boot • .NET • FastAPI • PostgreSQL • MongoDB • Azure • React • OpenAI API • Swift
+
         </p>
       </div>
     </main>
