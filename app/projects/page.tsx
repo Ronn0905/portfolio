@@ -17,6 +17,7 @@ const projects: Project[] = [
       "Defined DTO-based service contracts and applied clean architecture principles",
       "Designed the predictive maintenance framework with controller stubs and data flow",
       "Integrated Azure AI services with Azure SQL Server in a scalable backend architecture",
+      "Built as part of an academic–industry capstone with enterprise architecture constraints",
     ],
     tech: ".NET 8, C#, Azure AI Vision, Azure Form Recognizer, Azure SQL, Angular",
     github: "https://github.com/Ronn0905/homeazzon-capstone-overview",
@@ -29,6 +30,7 @@ const projects: Project[] = [
       "Designed RESTful APIs for bookings, users, and vehicle management",
       "Implemented role-based access control for admin and users",
       "Focused on clean backend architecture and data consistency",
+      "Designed to simulate a production-grade booking system with admin workflows",
     ],
     tech: "React, Node.js, Express, MongoDB",
     github: "https://github.com/Ronn0905/CarRentalApplication",
@@ -41,6 +43,7 @@ const projects: Project[] = [
       "Built FastAPI backend for AI-driven content generation",
       "Integrated OpenAI APIs for contextual responses",
       "Designed MongoDB-backed storage for session-based learning",
+      "Focused on scalable AI API integration and prompt-driven responses",
     ],
     tech: "Python, FastAPI, MongoDB, OpenAI API",
     github: "https://github.com/Ronn0905/ai-study-assistant",
@@ -53,6 +56,7 @@ const projects: Project[] = [
       "Built using SwiftUI with MVVM architecture",
       "Integrated OpenChargeMap API for live charging station data",
       "Implemented favorites and map-based search for improved UX",
+      "Built to practice real-world iOS patterns: MVVM, API integration, and map-first UX",
     ],
     tech: "Swift, SwiftUI, OpenChargeMap API, iOS",
     github: "https://github.com/Ronn0905/EVChargingFinder",
@@ -68,7 +72,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="border rounded-lg p-8 hover:shadow-sm transition"
+            className="border border-gray-200 rounded-lg p-8 transition hover:shadow-md"
           >
             <h2 className="text-xl font-semibold">{project.title}</h2>
 

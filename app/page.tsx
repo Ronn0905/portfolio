@@ -6,7 +6,7 @@ export default function Home() {
       </h1>
 
       <p className="mt-4 text-xl text-gray-600">
-        Full-Stack & AI Engineer • Java • .NET • FastAPI • Azure AI
+        Full-Stack & Backend Engineer | Java, .NET, FastAPI, Azure AI
       </p>
 
       <p className="mt-6 text-gray-700 max-w-2xl leading-relaxed">
