@@ -10,8 +10,8 @@ export default function Home() {
       </p>
 
       <p className="mt-6 text-gray-700 max-w-2xl leading-relaxed">
-        I design and build scalable backend systems and AI-powered applications,
-        with a strong focus on performance, reliability, and real-world production use.
+        I design and build scalable backend systems, AI-powered applications, 
+        and production-grade full-stack platforms used in real-world environments.
       </p>
 
       <div className="mt-10 flex gap-4">

@@ -8,6 +8,20 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "HomeaZZon – AI-Powered Property Management (Capstone)",
+    description:
+      "An enterprise-grade, AI-powered property management platform developed as part of an academic–industry capstone project, focused on document automation and predictive maintenance.",
+    highlights: [
+      "Designed and implemented a .NET 8 backend service integrating Azure Form Recognizer",
+      "Automated extraction of invoice and warranty data from scanned property documents",
+      "Defined DTO-based service contracts and applied clean architecture principles",
+      "Designed the predictive maintenance framework with controller stubs and data flow",
+      "Integrated Azure AI services with Azure SQL Server in a scalable backend architecture",
+    ],
+    tech: ".NET 8, C#, Azure AI Vision, Azure Form Recognizer, Azure SQL, Angular",
+    github: "https://github.com/Ronn0905/homeazzon-capstone-overview",
+  },
+  {
     title: "Car Rental Application",
     description:
       "A full-stack car rental platform designed to handle authentication, bookings, and administrative workflows at scale.",
@@ -75,6 +89,7 @@ export default function Projects() {
             <a
               href={project.github}
               target="_blank"
+              rel="noopener noreferrer"
               className="inline-block mt-5 text-blue-600 hover:underline text-sm"
             >
               View on GitHub →

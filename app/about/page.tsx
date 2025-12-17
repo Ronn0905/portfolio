@@ -4,9 +4,8 @@ export default function About() {
       <h1 className="text-3xl font-bold mb-6">About Me</h1>
 
       <p className="text-gray-700 max-w-3xl leading-relaxed">
-        I am a Full-Stack & AI Engineer with strong experience in backend
-        engineering, cloud-native systems, and AI integrations. My work focuses on designing scalable APIs, 
-        production-ready services, and intelligent systems with real-world business impact.
+        I am a Full-Stack & AI Engineer with strong experience in backend engineering, cloud-native systems, and AI integrations. 
+        My work focuses on designing scalable APIs, production-ready services, and intelligent systems that solve real business problems.
 
       </p>
 
