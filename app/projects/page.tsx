@@ -10,14 +10,14 @@ const projects: Project[] = [
   {
     title: "HomeaZZon – AI-Powered Property Management (Capstone)",
     description:
-      "An enterprise-grade, AI-powered property management platform developed as part of an academic–industry capstone project, focused on document automation and predictive maintenance.",
+      "An enterprise-grade property management platform developed under academic–industry constraints, focused on backend system design, document automation, and predictive maintenance workflows.",
     highlights: [
-      "Designed and implemented a .NET 8 backend service integrating Azure Form Recognizer",
-      "Automated extraction of invoice and warranty data from scanned property documents",
-      "Defined DTO-based service contracts and applied clean architecture principles",
-      "Designed the predictive maintenance framework with controller stubs and data flow",
-      "Integrated Azure AI services with Azure SQL Server in a scalable backend architecture",
-      "Built as part of an academic–industry capstone with enterprise architecture constraints",
+      "Designed and implemented a modular .NET 8 backend service integrating Azure Form Recognizer for document ingestion",
+      "Built a structured data extraction pipeline to process invoices and warranty documents from scanned inputs",
+      "Defined DTO-based service contracts to enforce clear boundaries between controllers, services, and data layers",
+      "Designed a predictive maintenance workflow with controller stubs and extensible data flow for future ML integration",
+      "Integrated Azure AI services with Azure SQL Server while maintaining separation between business logic and AI providers",
+      "Built as part of an academic–industry capstone with enterprise architecture and scalability constraints",
     ],
     tech: ".NET 8, C#, Azure AI Vision, Azure Form Recognizer, Azure SQL, Angular",
     github: "https://github.com/Ronn0905/homeazzon-capstone-overview",
@@ -25,25 +25,25 @@ const projects: Project[] = [
   {
     title: "Car Rental Application",
     description:
-      "A full-stack car rental platform designed to handle authentication, bookings, and administrative workflows at scale.",
+      "A backend-driven car rental system designed to model real-world booking flows, authentication, and administrative control paths.",
     highlights: [
-      "Designed RESTful APIs for bookings, users, and vehicle management",
-      "Implemented role-based access control for admin and users",
-      "Focused on clean backend architecture and data consistency",
-      "Designed to simulate a production-grade booking system with admin workflows",
+      "Designed RESTful APIs to manage bookings, users, vehicles, and availability with clear domain boundaries",
+      "Implemented role-based access control to separate customer-facing operations from admin workflows",
+      "Applied backend-first design principles to ensure data consistency across booking and inventory operations",
+      "Designed to simulate a production-grade booking system with administrative and operational constraints",
     ],
-    tech: "React, Node.js, Express, MongoDB",
+    tech: "Node.js, Express, MongoDB, React",
     github: "https://github.com/Ronn0905/CarRentalApplication",
   },
   {
     title: "AI Study Assistant",
     description:
-      "An AI-powered learning platform that generates personalized study material and explanations using large language models.",
+      "A backend-focused AI application designed to deliver context-aware study responses using prompt-driven APIs.",
     highlights: [
-      "Built FastAPI backend for AI-driven content generation",
-      "Integrated OpenAI APIs for contextual responses",
-      "Designed MongoDB-backed storage for session-based learning",
-      "Focused on scalable AI API integration and prompt-driven responses",
+      "Built a FastAPI backend to handle request orchestration and AI-driven response generation",
+      "Designed prompt handling and API integration to keep model interactions isolated from core business logic",
+      "Implemented MongoDB-based persistence for session-level context and conversation state",
+      "Focused on scalable AI API integration patterns rather than model-specific logic",
     ],
     tech: "Python, FastAPI, MongoDB, OpenAI API",
     github: "https://github.com/Ronn0905/ai-study-assistant",
@@ -51,12 +51,12 @@ const projects: Project[] = [
   {
     title: "EV Charging Finder (iOS)",
     description:
-      "A native iOS application that helps users discover nearby electric vehicle charging stations using real-time location data.",
+      "A native iOS application built to explore real-time location-based data access and API-driven mobile workflows.",
     highlights: [
-      "Built using SwiftUI with MVVM architecture",
-      "Integrated OpenChargeMap API for live charging station data",
-      "Implemented favorites and map-based search for improved UX",
-      "Built to practice real-world iOS patterns: MVVM, API integration, and map-first UX",
+      "Implemented MVVM architecture using SwiftUI to separate view logic from data and network layers",
+      "Integrated OpenChargeMap API to fetch and display real-time EV charging station data",
+      "Designed a map-first user experience with search and favorites for repeated access",
+      "Built to practice production-relevant iOS patterns including API integration and state management",
     ],
     tech: "Swift, SwiftUI, OpenChargeMap API, iOS",
     github: "https://github.com/Ronn0905/EVChargingFinder",
