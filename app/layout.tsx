@@ -2,9 +2,9 @@ import "./globals.css";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Ronit Khanna | Full-Stack & AI Engineer",
+  title: "Ronit Khanna | Full-Stack & Backend Engineer",
   description:
-    "Portfolio of Ronit Khanna — Full-Stack & AI Engineer specializing in backend systems, AI integrations, and scalable applications.",
+    "Portfolio of Ronit Khanna — Full-Stack & Backend Engineer specializing in Java, .NET, FastAPI, Azure, and scalable backend systems.",
 };
 
 export default function RootLayout({
