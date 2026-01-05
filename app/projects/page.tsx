@@ -22,6 +22,23 @@ const projects: Project[] = [
     tech: ".NET 8, C#, Azure AI Vision, Azure Form Recognizer, Azure SQL, Angular",
     github: "https://github.com/Ronn0905/homeazzon-capstone-overview",
   },
+
+  {
+    title: "Distributed URL Shortener",
+    description:
+      "A production-ready URL shortening service designed for high throughput, low latency, and safe API usage.",
+    highlights: [
+      "Designed RESTful APIs for URL creation and redirection with sub-50ms average latency",
+      "Implemented Redis-based caching achieving 99%+ cache hit rate under load",
+      "Built token bucket rate limiting to prevent abuse and ensure fair API usage",
+      "Designed Base62 encoding strategy for compact, collision-resistant short URLs",
+      "Containerized backend services using Docker for consistent deployment and scaling",
+      "Designed to simulate real-world traffic patterns and backend scalability constraints",
+    ],
+    tech: "Java, Spring Boot, Redis, PostgreSQL, Docker",
+    github: "https://github.com/Ronn0905/url-shortener",
+  },
+
   {
     title: "Car Rental Application",
     description:
@@ -35,6 +52,7 @@ const projects: Project[] = [
     tech: "Node.js, Express, MongoDB, React",
     github: "https://github.com/Ronn0905/CarRentalApplication",
   },
+
   {
     title: "AI Study Assistant",
     description:
@@ -48,6 +66,7 @@ const projects: Project[] = [
     tech: "Python, FastAPI, MongoDB, OpenAI API",
     github: "https://github.com/Ronn0905/ai-study-assistant",
   },
+
   {
     title: "EV Charging Finder (iOS)",
     description:
