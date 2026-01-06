@@ -24,6 +24,22 @@ const projects: Project[] = [
   },
 
   {
+    title: "Async Job Processing System",
+    description:
+      "A distributed asynchronous job processing system designed to handle long-running tasks with retries, idempotency, and fault tolerance.",
+    highlights: [
+      "Designed a Redis-backed job queue enabling asynchronous task submission and background execution",
+      "Implemented distributed locking to guarantee at-most-once job execution across multiple worker instances",
+      "Built idempotency handling to prevent duplicate job submissions under client or network retries",
+      "Implemented automatic retry logic with exponential backoff and failure recovery",
+      "Designed horizontally scalable worker processes for parallel job execution",
+      "Integrated OpenAI-powered tasks while keeping AI logic decoupled from core job orchestration",
+    ],
+    tech: "Python, FastAPI, Redis, OpenAI API",
+    github: "https://github.com/Ronn0905/async-job-system",
+  },
+
+  {
     title: "Distributed URL Shortener",
     description:
       "A production-ready URL shortening service designed for high throughput, low latency, and safe API usage.",
